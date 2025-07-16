@@ -1,0 +1,32 @@
+# Root Level (common)
+.env
+.env.local
+.env.development
+.env.production
+.DS_Store
+*.log
+*.sqlite
+*.sqlite3
+.vscode/
+dist/
+coverage/
+build/
+
+# Node.js Backend
+backend/node_modules/
+backend/dist/
+backend/coverage/
+backend/.env
+backend/.env.*
+
+
+# Frontend (React/Next.js)
+frontend/.next/
+frontend/node_modules/
+frontend/.env
+frontend/.env.*
+frontend/out/
+frontend/coverage/
+frontend/build/
+frontend/.turbo/
+frontend/.vercel/
