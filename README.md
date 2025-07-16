@@ -1,71 +1,77 @@
 # 🛍️ ekhaneikini.com – Custom Dropshipping eCommerce Platform
 
-**ekhaneikini.com** is a production-grade, fully custom-built eCommerce platform designed for the Bangladeshi market with future SaaS scalability.  
-It includes full customer and admin functionality, cart & checkout flow, and real SSLCommerz payment integration.
+**ekhaneikini.com** is a full-stack, production-ready dropshipping eCommerce platform built from scratch for the Bangladeshi market with global scalability in mind.
+
+It includes a modern frontend (Next.js 15), robust backend (Node.js, Express, MongoDB), secure authentication, and real **SSLCommerz payment gateway** integration.  
+This is a solo project where every single part — from planning to deployment — was done by me.
 
 ---
 
-## 🚀 Live Preview
+## 🔗 Live Preview
 
-🌐 [Live Site](https://www.ekhaneikini.com)  
-📂 [Frontend Repository](./frontend)  
-📂 [Backend Repository](./backend)  
-🎥 [Demo Video (Coming Soon)](#)
-
----
-
-## 🔧 Tech Stack
-
-| Layer      | Tech                                                 |
-| ---------- | ---------------------------------------------------- |
-| Frontend   | Next.js 14 (App Router), Tailwind CSS, Redux Toolkit |
-| Backend    | Node.js, Express.js, TypeScript                      |
-| Database   | MongoDB (→ Will migrate to PostgreSQL + Prisma)      |
-| Auth       | Firebase Auth (for MVP)                              |
-| Payment    | SSLCommerz (Live Account Integrated)                 |
-| Deployment | Vercel (Frontend), Railway/Render (Backend)          |
-| Tools      | Git, GitHub, REST API, .env, Postman                 |
+🌐 [Live Site](https://www.ekhaneikini.com) _(Coming Soon)_  
+📂 [Frontend Code](./frontend)  
+📂 [Backend Code](./backend)  
+🎥 [Demo Video](#) _(Coming Soon)_
 
 ---
 
-## 📦 Core Features
+## 🚀 Tech Stack
 
-### 👨‍💼 Customer Side
+| Layer      | Technology                                  |
+| ---------- | ------------------------------------------- |
+| Frontend   | **Next.js 15**, Tailwind CSS, Redux Toolkit |
+| Backend    | **Node.js**, Express.js, TypeScript         |
+| Database   | **MongoDB** (Planned: PostgreSQL + Prisma)  |
+| Auth       | Firebase Authentication                     |
+| Payment    | **SSLCommerz** (Live Gateway Integrated)    |
+| Deployment | Vercel (Frontend), Railway/Render (Backend) |
+| Tools      | Git, GitHub, Postman, .env, TypeScript, Zod |
 
-- User registration & login (JWT/Firebase)
-- Browse product catalog
+---
+
+## ✨ Key Features
+
+### 👤 Customer
+
+- Sign up / Login (JWT / Firebase)
+- Browse products with filtering
 - View product details
-- Add to cart & update quantity
-- Checkout with SSLCommerz gateway
-- Order confirmation
+- Add to cart, update quantity
+- Place order via SSLCommerz payment
+- Order confirmation page
 
-### 🛠️ Admin Panel
+### 🛠️ Admin
 
-- Admin login
-- Product add/edit/delete
+- Role-based access control
+- Product Add/Edit/Delete
 - View customer orders
-- Update order status
+- Update order status (e.g., processing, shipped)
 
-### 📊 Upcoming Features
+### 🔄 Additional Functionalities
 
-- Seller onboarding panel
-- Analytics dashboard
-- Stripe payment (international)
-- PostgreSQL migration with Prisma
+- Cart persist with localStorage
+- Middleware: Error handling, Auth guard
+- RESTful API with modular structure
+- Environment separation (dev/prod)
 
 ---
 
-## 🧱 Project Folder Structure
+## 📁 Folder Structure
 
 ```
 ekhaneikini/
+├── frontend/ # Next.js 14 App Router Frontend
+│ ├── app/
+│ ├── components/
+│ ├── store/
+│ └── .env.local
 ├── backend/ # Node.js + Express + MongoDB API
 │ ├── src/
+│ ├── controllers/
+│ ├── models/
+│ ├── routes/
 │ └── .env
-├── frontend/ # Next.js 14 App Router + Tailwind + Redux
-│ ├── app/
-│ ├── public/
-│ └── .env.local
 ├── .gitignore
 ├── README.md
 
@@ -73,27 +79,61 @@ ekhaneikini/
 
 ---
 
-## 🛡️ Environment Variables
+## 🔐 Environment Variables
 
-### 🔐 Backend `.env`:
+### 📦 Backend (.env)
 
 ```env
 PORT=5000
 MONGODB_URI=your_mongodb_uri
 JWT_SECRET=your_jwt_secret
-SSL_STORE_ID=your_sslcommerz_store_id
-SSL_STORE_PASSWORD=your_sslcommerz_store_password
+SSL_STORE_ID=your_store_id
+SSL_STORE_PASSWORD=your_store_password
 
 
 
-### Frontend .env.local:
+### 🖥️ Frontend (.env.local)
 NEXT_PUBLIC_API_URL=http://localhost:5000/api
-NEXT_PUBLIC_FIREBASE_API_KEY=your_firebase_key
-NEXT_PUBLIC_FIREBASE_PROJECT_ID=your_project_id
+NEXT_PUBLIC_FIREBASE_API_KEY=your_key
+NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=your_auth_domain
+
 
 ```
 
 ---
 
-##📜 License
-This project is for personal and portfolio purposes only. Commercial deployment will require supplier/vendor approval.
+## ✍️ My Contributions
+
+This is a solo project — every part was researched, designed, developed, and deployed by me.
+
+- ✅ Full Research & Planning (R&D)
+- 🎨 UI/UX Design (Figma-based Wireframe → Tailwind CSS)
+- 💼 Business Branding + Graphics Design
+- 💻 Frontend & Backend Architecture
+- 🔒 Authentication & Authorization Logic
+- 💳 Real Payment Gateway Integration (SSLCommerz)
+- 📚 Technical Documentation + Postman + README
+- 🌐 Deployment, domain, environment management
+- 🧪 Testing, bug fixing, optimization
+
+**his reflects my capability to build a real, scalable, industry-standard eCommerce solution independently.**
+
+---
+
+## 🛣️ Future Improvements
+
+- PostgreSQL + Prisma migration (Aug 2025)
+- Seller onboarding panel (B2B dropshipping)
+- Stripe & PayPal integration
+- Inventory & fulfillment tracking system
+- Customer support inbox (in-app messaging)
+
+---
+
+## 👨‍💻 Author
+
+**Abdul Wahed Nur**  
+MERN Stack Developer
+✉️: <wahednur@gmail.com>
+📞: +88 01917839303
+[Portfolio](https://wahednur.vercel.app) | [LinkedIn](https://www.linkedin.com/in/wahednur/)
