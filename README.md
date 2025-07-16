@@ -57,6 +57,7 @@ It includes full customer and admin functionality, cart & checkout flow, and rea
 
 ## 🧱 Project Folder Structure
 
+```
 ekhaneikini/
 ├── backend/ # Node.js + Express + MongoDB API
 │ ├── src/
@@ -67,6 +68,8 @@ ekhaneikini/
 │ └── .env.local
 ├── .gitignore
 ├── README.md
+
+```
 
 ---
 
