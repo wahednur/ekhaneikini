@@ -56,3 +56,41 @@ It includes full customer and admin functionality, cart & checkout flow, and rea
 ---
 
 ## 🧱 Project Folder Structure
+
+ekhaneikini/
+├── backend/ # Node.js + Express + MongoDB API
+│ ├── src/
+│ └── .env
+├── frontend/ # Next.js 14 App Router + Tailwind + Redux
+│ ├── app/
+│ ├── public/
+│ └── .env.local
+├── .gitignore
+├── README.md
+
+---
+
+## 🛡️ Environment Variables
+
+### 🔐 Backend `.env`:
+
+```env
+PORT=5000
+MONGODB_URI=your_mongodb_uri
+JWT_SECRET=your_jwt_secret
+SSL_STORE_ID=your_sslcommerz_store_id
+SSL_STORE_PASSWORD=your_sslcommerz_store_password
+
+
+
+### Frontend .env.local:
+NEXT_PUBLIC_API_URL=http://localhost:5000/api
+NEXT_PUBLIC_FIREBASE_API_KEY=your_firebase_key
+NEXT_PUBLIC_FIREBASE_PROJECT_ID=your_project_id
+
+```
+
+---
+
+##📜 License
+This project is for personal and portfolio purposes only. Commercial deployment will require supplier/vendor approval.
