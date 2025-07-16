@@ -1,3 +1,5 @@
+![Logo](./backend/ekhaneikini-25.svg)
+
 # 🛍️ ekhaneikini.com – Custom Dropshipping eCommerce Platform
 
 **ekhaneikini.com** is a full-stack, production-ready dropshipping eCommerce platform built from scratch for the Bangladeshi market with global scalability in mind.
@@ -116,7 +118,7 @@ This is a solo project — every part was researched, designed, developed, and d
 - 🌐 Deployment, domain, environment management
 - 🧪 Testing, bug fixing, optimization
 
-**his reflects my capability to build a real, scalable, industry-standard eCommerce solution independently.**
+**This reflects my capability to build a real, scalable, industry-standard eCommerce solution independently.**
 
 ---
 
