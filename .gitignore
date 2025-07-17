@@ -30,3 +30,5 @@ frontend/coverage/
 frontend/build/
 frontend/.turbo/
 frontend/.vercel/
+
+gitText.md
